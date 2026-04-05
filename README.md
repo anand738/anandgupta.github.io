@@ -1,4 +1,4 @@
-[# 🌐 Portfolio Website
+## 🌐 Portfolio Website
 
 A modern, responsive portfolio website designed to showcase projects, skills, and real-world impact in **AI/ML and Computer Vision**.
 
