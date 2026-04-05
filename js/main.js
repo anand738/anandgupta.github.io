@@ -46,7 +46,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
 });
 
 // TYPING
-const texts = ['AI/ML Engineer', 'Computer Vision Expert', 'ML Systems Builder', 'Predictive Analytics Dev'];
+const texts = ['Software Engineer ','AI/ML Engineer', 'Data Sciecne', 'Automation Engineer']
 let ti = 0, ci = 0, del = false;
 const typedEl = document.getElementById('typed');
 function type() {

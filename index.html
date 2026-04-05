@@ -23,7 +23,10 @@
   </div>
 
   <nav class="nav" id="nav">
-    <a href="#home" class="nav-logo">Portfolio<span class="blink">_</span></a>
+    <!-- <a href="#home" class="nav-logo">Portfolio<span class="blink">_</span></a> -->
+    <div class="logo">
+      <span class="logo-main">AG</span><span class="logo-dot">_</span>
+    </div>
     <button class="nav-hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
@@ -38,140 +41,220 @@
   </nav>
 
   <section class="hero" id="home">
+
+    <!-- Background layers -->
     <div class="hero-bg">
+      <div class="hero-noise"></div>
+      <div class="hero-gradient-mesh"></div>
       <div class="grid-overlay"></div>
       <div class="orb orb-1"></div>
       <div class="orb orb-2"></div>
       <div class="orb orb-3"></div>
+      <div class="orb orb-4"></div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="hero-content">
-      <div class="hero-tag">
-        <span class="tag-dot"></span>
-        <span>Available for opportunities</span>
+    <!-- Vertical left rail — socials -->
+    <div class="hero-rail-left">
+      <div class="rail-line"></div>
+      <div class="rail-socials">
+        <a href="https://github.com/anand738" target="_blank" title="GitHub" class="rail-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/anand-gupta-b8a43b200" target="_blank" title="LinkedIn" class="rail-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:anandgupta2613@gmail.com" title="Email" class="rail-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
       </div>
-      <h1 class="hero-name">
-        <span class="name-line">Anand</span>
-        <span class="name-line accent">Gupta</span>
-      </h1>
-      <div class="hero-role">
-        <span class="role-prefix">&gt;&nbsp;</span>
-        <span id="typed"></span><span class="type-cursor">|</span>
-      </div>
-      <!-- ✅ ADD THIS (VERY IMPORTANT) -->
-      <p class="hero-description">
-        AI/ML Engineer building production-grade Computer Vision systems.<br>
-        Currently at <strong>AM/NS India</strong> • B.Tech from <strong>SVNIT Surat</strong> 
-      </p>
-      
-      <!-- ✅ ADD STATS BACK (BUT IMPROVED) -->
-      <div class="hero-stats">
-
-        <div class="stat">
-          <!-- <span class="stat-num" data-count="80">0</span><span>%</span> -->
-          <span class="stat-label">Asst. Manager</span>
-        </div>
-
-        <div class="stat">
-          <!-- <span class="stat-num">🏆</span> -->
-          <span class="stat-label">Govt Recognition</span>
-        </div>
-
-        <div class="stat-divider"></div>
-
-        <div class="stat">
-          <!-- <span class="stat-num">🤖</span> -->
-          <span class="stat-label">Warfare AI Robot</span>
-        </div>
-
-        <div class="stat-divider"></div>
-
-        
-      </div>
-
-      
-      <div class="hero-actions">
-        <a href="#projects" class="btn-primary">View My Work</a>
-        <a href="#contact" class="btn-ghost">Get In Touch</a>
-      </div>
-    </div>
-    <div class="hero-socials">
-      <a href="https://github.com/anand738" target="_blank" title="GitHub">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-      </a>
-      <a href="https://linkedin.com/in/anand-gupta-b8a43b200" target="_blank" title="LinkedIn">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      </a>
-      <a href="mailto:anandgupta2613@gmail.com" title="Email">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      </a>
+      <div class="rail-line"></div>
     </div>
 
-    <!-- RIGHT: Photo Card -->
-      <div class="hero-right">
-        <div class="photo-glow"></div>
-        <div class="photo-card" style="width: 360px; height: 480px;">
-          <img src="assets\profile.jpg" alt="profile" style="width:100%; height:100%; object-fit:cover;">
+    <!-- Main hero grid -->
+    <div class="hero-inner">
+
+      <!-- LEFT: Text content -->
+      <div class="hero-content">
+
+        <div class="hero-tag">
+          <span class="tag-dot"></span>
+          <span>Open to new opportunities</span>
         </div>
-          <div class="photo-strip">
-            <!-- <div class="strip-left">
-              <span class="strip-name">Anand Gupta</span>
-              <span class="strip-role">AI/ML Engineer · AM/NS India</span>
-            </div> -->
-            <!-- <div class="strip-right">
-              <span class="strip-cgpa">8.26</span>
-              <span class="strip-cgpa-label">CGPA</span> -->
-            </div>
+
+        <h1 class="hero-name">
+          <span class="name-line">Anand</span>
+          <span class="name-line">
+            <span class="name-outline">Gupta</span>
+          </span>
+        </h1>
+
+        <div class="hero-role">
+          <span class="role-prefix">✦&nbsp;</span>
+          <span id="typed"></span><span class="type-cursor">|</span>
+        </div>
+
+        <p class="hero-description">
+          Software Engineer building production-grade <em>Artificial intelligence</em> &amp; <em>Machine Learning</em> systems.<br>
+          Currently at <strong>ArcelorMittal Nippon Steel India </strong>(AM/NS India)<br>
+          B.Tech ECE from <strong>SVNIT Surat</strong>.
+        </p>
+
+        <!-- Achievement pills row -->
+        <div class="hero-pills">
+          <div class="hero-pill">
+            <span class="pill-icon">🏆</span>
+            <span>Recognized by SMC Surat</span>
+          </div>
+          <div class="hero-pill">
+            <span class="pill-icon">🥈</span>
+            <span>Assistant Manager at AM/NS</span>
+          </div>
+          <div class="hero-pill">
+            <span class="pill-icon">🤖</span>
+            <span>Warfare AI Robot</span>
           </div>
         </div>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View My Work ↓</a>
+          <a href="#contact" class="btn-ghost">Let's Talk</a>
+          <a href="https://drive.google.com/file/d/1pw2IbfPQaTv9DWxIsoBwNnk2gCOKY0Wn/view?usp=sharing" target="_blank" class="btn-resume">Resume ↗</a>
+        </div>
+
+        <!-- Mobile socials -->
+        <div class="hero-socials-mobile">
+          <a href="https://github.com/anand738" target="_blank" class="mob-soc">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/anand-gupta-b8a43b200" target="_blank" class="mob-soc">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+
       </div>
 
+      <!-- RIGHT: Photo + Floating Cards -->
+      <div class="hero-right">
+
+        <!-- Decorative rings -->
+        <div class="photo-ring photo-ring-1"></div>
+        <div class="photo-ring photo-ring-2"></div>
+
+        <!-- The photo -->
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <img src="assets/profile.jpg" alt="Anand Gupta" class="photo-img">
+            <div class="photo-shine"></div>
+          </div>
+        </div>
+
+        <!-- Floating stat cards -->
+        <div class="fcard fcard-1">
+          <div class="fcard-icon">💼</div>
+          <div class="fcard-body">
+            <span class="fcard-num">1.5+</span>
+            <span class="fcard-lbl">Years Experience</span>
+          </div>
+        </div>
+
+        <div class="fcard fcard-2">
+          <div class="fcard-icon">🏭</div>
+          <div class="fcard-body">
+            <span class="fcard-num">AM/NS</span>
+            <span class="fcard-lbl">India — Production</span>
+          </div>
+        </div>
+
+        <div class="fcard fcard-3">
+          <div class="fcard-icon">🎓</div>
+          <div class="fcard-body">
+            <span class="fcard-num">8.26</span>
+            <span class="fcard-lbl">CGPA · SVNIT</span>
+          </div>
+        </div>
+
+        <div class="fcard fcard-4">
+          <div class="fcard-icon">👁</div>
+          <div class="fcard-body">
+            <span class="fcard-num">CV</span>
+            <span class="fcard-lbl">Computer Vision</span>
+          </div>
+        </div>
+
+        <!-- Live status badge -->
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          <span>Available for hire</span>
+        </div>
+
+      </div>
     </div>
-    <a href="#about" class="hero-scroll">
-      <div class="scroll-indicator"><div class="scroll-mouse"><div class="scroll-wheel"></div></div><span>scroll</span></div>
-    </a>
+
+    <!-- Bottom bar -->
+    <div class="hero-bottom-bar">
+      <div class="hbb-left">
+        <span class="hbb-label">Stack</span>
+        <div class="hbb-tags">
+          <span>Python</span><span>OpenCV</span><span>TensorFlow</span><span>YOLO</span><span>Scikit-learn</span><span>C#</span><span>SQL</span>
+        </div>
+      </div>
+      <a href="#about" class="hero-scroll-btn">
+        <span>Scroll</span>
+        <div class="scroll-arrow">
+          <div class="scroll-wheel"></div>
+        </div>
+      </a>
+    </div>
+
   </section>
 
   <section class="section about" id="about">
     <div class="container">
       <div class="section-header">
-        <!-- <span class="section-tag">01 // About</span> -->
         <h2 class="section-title">Who I Am</h2>
       </div>
       <div class="about-grid">
         <div class="about-visual">
           <div class="avatar-frame">
             <div class="avatar-container">
-                <img src="assets/Photo1.png" class="avatar-img" alt="Anand Gupta" style="width: 341px; height: 338px;">
-                <!-- <span class="avatar-text">AG</span> -->
+                <img src="assets/Photo1.png" class="avatar-img" alt="Anand Gupta">
             </div>
             <div class="avatar-ring"></div>
-            <!-- <div class="avatar-badge"><span>🏆</span> Commissioner Award</div> -->
           </div>
           <div class="about-card">
-            <div class="about-card-row"><span class="acl">Location</span><span class="acv">Surat, India</span></div>
-            <div class="about-card-row"><span class="acl">Role</span><span class="acv">Asst. Manager – Automation</span></div>
-            <div class="about-card-row"><span class="acl">Education</span><span class="acv">B.Tech ECE, SVNIT (2024)</span></div>
-            <div class="about-card-row"><span class="acl">CGPA</span><span class="acv">8.26 / 10</span></div>
-            <div class="about-card-row"><span class="acl">Languages</span><span class="acv">English · Hindi · Gujarati</span></div>
+            <div class="about-card-row">
+              <span class="acl">💼 Role</span>
+              <span class="acv">Asst. Manager – Automation</span>
+            </div>
+
+            <div class="about-card-row">
+              <span class="acl">🏢 Company</span>
+              <span class="acv">AM/NS India</span>
+            </div>
+
+            <div class="about-card-row">
+              <span class="acl">📍Location</span>
+              <span class="acv">Surat, India</span>
+            </div>
+
+            <div class="about-card-row">
+              <span class="acl">🎓 Education</span>
+              <span class="acv">B.Tech ECE, SVNIT (2024)</span>
+            </div>
+
+            <div class="about-card-row">
+              <span class="acl">🌐 Languages</span>
+              <span class="acv">English · Hindi · Gujarati</span>
+            </div>
           </div>
         </div>
         <div class="about-content">
-          <p class="about-lead">I engineer intelligent systems that work in the real world — not just in notebooks.</p>
-          <p class="about-body">Software Engineer with 1.5+ years at AM/NS India (ArcelorMittal + Nippon Steel), specializing in industrial automation, Machine Learning, and Computer Vision in production environments. Built a real-time Surface Inspection System and a Predictive Maintenance model for equipment failure detection.</p>
-
+          <p class="about-lead">
+            Engineering <span class="highlight">intelligent systems</span> that deliver real-world impact beyond experiments and notebooks.
+          </p>  
+          <p class="about-body">Software Engineer with 1.5+ years at AM/NS India, specializing in automation, Machine Learning, and Computer Vision in production environments. Built a real-time Surface Inspection System and a Predictive Maintenance model for equipment failure detection.</p>
           <p class="about-body">Experienced in SQL (MS SQL Server), C# system maintenance, and ML development using Python, Scikit-learn, TensorFlow, and YOLO. Previously developed a city-wide CCTV-based cattle detection system for Surat Municipal Corporation, improving response efficiency and road safety, and earning formal recognition from the Commissioner of Surat.</p>
           <div class="about-highlights">
             <div class="hl-chip">Python</div>
@@ -182,16 +265,12 @@
             <div class="hl-chip">Computer Vision</div>
             <div class="hl-chip">OpenCV</div>
             <div class="hl-chip">TensorFlow</div>
-                
             <div class="hl-chip">Deep Learning</div>
             <div class="hl-chip">Machine Learning</div>
-            <div class="hl-chip">SQL</div>        
-            
- 
+            <div class="hl-chip">SQL</div>
             <div class="hl-chip">Git</div>
             <div class="hl-chip">Linux</div>
             <div class="hl-chip">Data Analysis</div>
-           
           </div>
           <div class="about-actions">
             <a href="https://drive.google.com/file/d/1pw2IbfPQaTv9DWxIsoBwNnk2gCOKY0Wn/view?usp=sharing" target="_blank" class="btn-primary">Download Resume ↗</a>
@@ -205,7 +284,6 @@
   <section class="section experience" id="experience">
     <div class="container">
       <div class="section-header">
-        <!-- <span class="section-tag">02 // Experience</span> -->
         <h2 class="section-title">Where I've Worked</h2>
       </div>
       <div class="timeline">
@@ -213,7 +291,7 @@
           <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
           <div class="tl-content">
             <div class="tl-header">
-              <div><h3 class="job-title">Assistant Manager – Automation (Software &amp; AI/ML)</h3><span class="company">AM/NS India (ArcelorMittal Nippon Steel)</span></div>
+              <div><h3 class="job-title">Assistant Manager – Automation (Software &amp; AI/ML)</h3><span class="company">ArcelorMittal Nippon Steel India (AM/NS India)</span></div>
               <div class="job-meta"><span>Jul 2024 – Present</span><span>Surat, Gujarat</span></div>
             </div>
             <ul class="job-bullets">
@@ -221,7 +299,6 @@
               <li>Built a <strong>real-time Surface Inspection System</strong> (Python, OpenCV, CNN) improving defect detection consistency</li>
               <li>Designed a <strong>predictive maintenance ML model</strong> (Scikit-learn) to detect equipment anomalies using historical sensor data</li>
               <li>Wrote optimized <strong>SQL queries</strong> (MS SQL Server) for large-scale data extraction, transformation, and ML pipeline integration</li>
-              <!-- <li>Worked with <strong>tech stack</strong>: Python, C#, SQL, MS SQL Server, OpenCV, Scikit-learn</li> -->
             </ul>
             <div class="job-stack"><span>Python</span><span>C#</span><span>SQL</span><span>MS SQL Server</span><span>OpenCV</span><span>Scikit-learn</span><span>TensorFlow</span><span>CNN</span></div>
           </div>
@@ -235,7 +312,7 @@
               <div class="job-meta"><span>Feb 2024 – May 2024</span><span>Pune, Maharashtra</span></div>
             </div>
             <ul class="job-bullets">
-               <li>Automated <strong>logistics workflows</strong> using deep learning, improving efficiency and reducing manual intervention</li>
+              <li>Automated <strong>logistics workflows</strong> using deep learning, improving efficiency and reducing manual intervention</li>
               <li>Developed a <strong>CNN-based image classification model</strong> for vehicle recognition with strong validation performance</li>
             </ul>
             <div class="job-stack"><span>Python</span><span>YOLOv5</span><span>TensorFlow</span><span>Keras</span><span>CNN</span></div>
@@ -253,10 +330,8 @@
               <li>Built a <strong>YOLO-based real-time detection system</strong> for stray cattle monitoring using live CCTV feeds</li>
               <li>Integrated the system into <strong>city-wide surveillance infrastructure</strong> to improve incident response and road safety</li>
               <li>Received formal recognition from the <strong>Commissioner of Surat</strong> for civic impact</li>
-              
             </ul>
             <div class="job-stack"><span>Python</span><span>OpenCV</span><span>YOLO</span><span>TensorFlow</span><span>Deep Learning</span></div>
-            <!-- <div class="award-badge">🏆 Commissioner of Surat Award</div> -->
           </div>
         </div>
 
@@ -281,7 +356,6 @@
   <section class="section projects" id="projects">
     <div class="container">
       <div class="section-header">
-        <!-- <span class="section-tag">03 // Projects</span> -->
         <h2 class="section-title">Things I've Built</h2>
       </div>
       <div class="projects-grid">
@@ -293,7 +367,6 @@
             <h3>Surface Inspection System</h3>
             <p>Real-time CV system deployed in AM/NS India plant. Detects surface defects across production batches — reduced manual inspection time by ~80%.</p>
             <div class="proj-stack"><span>Python</span><span>OpenCV</span><span>CNN</span><span>TensorFlow</span><span>C#</span></div>
-            <!-- <div class="proj-impact"><span>⚡ 80% time saved</span><span>🏭 Live in production</span></div> -->
           </div>
         </div>
 
@@ -304,7 +377,6 @@
             <h3>Stray Cattle CCTV Detection System</h3>
             <p>City-wide YOLO detection for Surat Municipal Corporation. Integrated into live CCTV infrastructure. Recognized by the Commissioner of Surat.</p>
             <div class="proj-stack"><span>Python</span><span>YOLO</span><span>OpenCV</span><span>TensorFlow</span></div>
-            <!-- <div class="proj-impact"><span>🏆 Commissioner Award</span><span>🚦 50% fewer accidents</span></div> -->
           </div>
         </div>
 
@@ -315,7 +387,6 @@
             <h3>Warfare Assistance Robot (WAR)</h3>
             <p>AI-powered surveillance robot with YOLO-based object detection. Detects tanks, jets, bombs. Reduced human risk by 70%.</p>
             <div class="proj-stack"><span>Python</span><span>YOLO</span><span>OpenCV</span><span>TensorFlow</span></div>
-            <!-- <div class="proj-impact"><span>⚡ 70% risk reduced</span></div> -->
           </div>
         </div>
 
@@ -336,7 +407,6 @@
             <h3>Real Estate Price Prediction</h3>
             <p>End-to-end ML pipeline with feature engineering. Achieved 98% accuracy on Bangalore housing market, cut decision time by 30%.</p>
             <div class="proj-stack"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span></div>
-            <!-- <div class="proj-impact"><span>⚡ 98% accuracy</span></div> -->
           </div>
         </div>
 
@@ -360,7 +430,6 @@
   <section class="section skills" id="skills">
     <div class="container">
       <div class="section-header">
-        <!-- <span class="section-tag">04 // Skills</span> -->
         <h2 class="section-title">What I Work With</h2>
       </div>
       <div class="skills-grid">
@@ -370,7 +439,7 @@
             <div class="skill-item"><span>TensorFlow / Keras</span><div class="skill-bar"><div class="skill-fill" data-w="88"></div></div></div>
             <div class="skill-item"><span>Scikit-learn</span><div class="skill-bar"><div class="skill-fill" data-w="90"></div></div></div>
             <div class="skill-item"><span>YOLO</span><div class="skill-bar"><div class="skill-fill" data-w="85"></div></div></div>
-            <div class="skill-item"><span>Predictive Modelling,</span><div class="skill-bar"><div class="skill-fill" data-w="82"></div></div></div>
+            <div class="skill-item"><span>Predictive Modelling</span><div class="skill-bar"><div class="skill-fill" data-w="82"></div></div></div>
           </div>
         </div>
         <div class="skill-cat">
@@ -399,7 +468,6 @@
             <div class="skill-item"><span>Feature Engineering</span><div class="skill-bar"><div class="skill-fill" data-w="80"></div></div></div>
             <div class="skill-item"><span>Data Visualization</span><div class="skill-bar"><div class="skill-fill" data-w="78"></div></div></div>
             <div class="skill-item"><span>MYSQL / MS SQL Server</span><div class="skill-bar"><div class="skill-fill" data-w="78"></div></div></div>
-
           </div>
         </div>
       </div>
@@ -410,7 +478,6 @@
           <div class="tool-badge">Jupyter Notebook</div><div class="tool-badge">Google Colab</div>
           <div class="tool-badge">Visual Studio</div><div class="tool-badge">Git / GitHub</div>
           <div class="tool-badge">DBeaver</div>
-          
         </div>
       </div>
     </div>
@@ -419,17 +486,17 @@
   <section class="section achievements" id="achievements">
     <div class="container">
       <div class="section-header">
-        <!-- <span class="section-tag">05 // Recognition</span> -->
         <h2 class="section-title">Awards &amp; Achievements</h2>
       </div>
       <div class="ach-grid">
         <div class="ach-card"><div class="ach-icon">🏆</div><h3>Commissioner of Surat Award</h3><p>Formally recognised by the Commissioner of Surat Municipal Corporation for measurable civic impact — 50% fewer accidents, 40% faster response.</p></div>
         <div class="ach-card"><div class="ach-icon">🥈</div><h3>2nd Prize — Techniche, IIT Guwahati</h3><p>Secured 2nd place at Techniche, the annual technical &amp; entrepreneurship fest of IIT Guwahati.</p></div>
-        <div class="ach-card"><div class="ach-icon">📜</div><h3>Certifications</h3><p>Python Programming (Great Learning)
-                                                                                    <p>Neural Networks &amp; Deep Learning (Coursera/deeplearning.ai)</p>
-                                                                                    <p>Data Science (Oracle)</p>
-                                                                                    <p>Data Visualization (Jobaaj)</p>
-                                                      </div>
+        <div class="ach-card"><div class="ach-icon">📜</div><h3>Certifications</h3>
+          <p>Python Programming (Great Learning)</p>
+          <p>Neural Networks &amp; Deep Learning (Coursera/deeplearning.ai)</p>
+          <p>Data Science (Oracle)</p>
+          <p>Data Visualization (Jobaaj)</p>
+        </div>
         <div class="ach-card"><div class="ach-icon">🎓</div><h3>SVNIT — 8.26 CGPA</h3><p>Graduated from Sardar Vallabhbhai National Institute of Technology with 8.26/10 in Electronics &amp; Communication Engineering.</p></div>
       </div>
     </div>
@@ -438,7 +505,6 @@
   <section class="section contact" id="contact">
     <div class="container">
       <div class="section-header">
-        <!-- <span class="section-tag">06 // Contact</span> -->
         <h2 class="section-title">Let's Connect</h2>
       </div>
       <div class="contact-grid">
@@ -457,74 +523,39 @@
           </div>
         </div>
         <div class="contact-right">
-
           <form class="contact-form" action="https://formspree.io/f/mwvwwpbw" method="POST">
-
-            <!-- ✅ REQUIRED hidden fields -->
-            
-           
-
             <div class="fg">
               <label>Name</label>
               <input type="text" name="name" placeholder="Your name" required>
             </div>
-
             <div class="fg">
               <label>Email</label>
               <input type="email" name="email" placeholder="your@email.com" required>
             </div>
-
             <div class="fg">
               <label>Subject</label>
-              <!-- <input type="hidden" name="_subject" value="New Portfolio Inquiry"> -->
-              
               <input type="text" name="_subject" placeholder="What's this about?" required>
             </div>
-
             <div class="fg">
               <label>Message</label>
               <textarea name="message" rows="10" placeholder="Tell me about your project..." required></textarea>
             </div>
-            
-            <button type="submit" class="btn-submit">
-              Send Message →
-            </button>
-
-            <!-- <p class="form-note">
-              Or 
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeP105LGOQWI7fU9SVwNIB2zFX6seJPaFtw_Pdd8wi_oyAq3g/viewform" target="_blank">
-                use Google Form ↗
-              </a>
-            </p> -->
-
+            <button type="submit" class="btn-submit">Send Message →</button>
           </form>
-
         </div>
-        
-        
       </div>
     </div>
   </section>
 
   <footer class="footer">
-  <div class="container">
-    <div class="footer-inner">
-      <p class="footer-line">
-        Where engineering meets innovation.
-      </p>
-     
-
-      <p class="tagline">© 2026 Anand Gupta Engineered with precision.</p>
-
-      
-
-      <p class="footer-line secondary">
-        Solving real-world problems with AI & data.
-      </p>
-
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-line">Where engineering meets innovation.</p>
+        <p class="tagline">© 2026 Anand Gupta · Engineered with precision.</p>
+        <p class="footer-line secondary">Solving real-world problems with AI &amp; data.</p>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
