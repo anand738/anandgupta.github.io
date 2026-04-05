@@ -1,4 +1,4 @@
-# 🌐 Portfolio Website
+[# 🌐 Portfolio Website
 
 A modern, responsive portfolio website designed to showcase projects, skills, and real-world impact in **AI/ML and Computer Vision**.
 
@@ -53,7 +53,7 @@ It highlights projects, experience, and technical capabilities in a structured a
 ├── style.css
 ├── assets/
 │   ├── images
-│   └── icons
+
 ```
 
 ---
@@ -98,3 +98,4 @@ Any updates pushed to the `main` branch are automatically deployed.
 ## ⭐ Feedback
 
 Feel free to explore and suggest improvements!
+](https://anand738.github.io/anandgupta.github.io/)
